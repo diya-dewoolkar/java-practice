@@ -1,6 +1,4 @@
 # java-practice
-# JAVA PRACTICE
-
 ## ABOUT
 This repository contains my Java programming practice programs. It documents my learning journey and helps me improve my programming and problem-solving skills.
 
