@@ -1,0 +1,75 @@
+
+public class minmaxvalue {
+
+    public static void main(String[] args) {
+
+        byte minByte;
+        byte maxByte;
+
+        short minShort;
+        short maxShort;
+
+        int minInt;
+        int maxInt;
+
+        long minLong;
+        long maxLong;
+
+        float minFloat;
+        float maxFloat;
+
+        double minDouble;
+        double maxDouble;
+
+        char minChar;
+        char maxChar;
+
+        boolean value;
+
+        minByte = Byte.MIN_VALUE;
+        maxByte = Byte.MAX_VALUE;
+
+        minShort = Short.MIN_VALUE;
+        maxShort = Short.MAX_VALUE;
+
+        minInt = Integer.MIN_VALUE;
+        maxInt = Integer.MAX_VALUE;
+
+        minLong = Long.MIN_VALUE;
+        maxLong = Long.MAX_VALUE;
+
+        minFloat = -Float.MAX_VALUE;
+        maxFloat = Float.MAX_VALUE;
+
+        minDouble = -Double.MAX_VALUE;
+        maxDouble = Double.MAX_VALUE;
+
+        minChar = Character.MIN_VALUE;
+        maxChar = Character.MAX_VALUE;
+
+        value = true;
+
+        System.out.println("Byte Minimum = " + minByte);
+        System.out.println("Byte Maximum = " + maxByte);
+
+        System.out.println("Short Minimum = " + minShort);
+        System.out.println("Short Maximum = " + maxShort);
+
+        System.out.println("Int Minimum = " + minInt);
+        System.out.println("Int Maximum = " + maxInt);
+
+        System.out.println("Long Minimum = " + minLong);
+        System.out.println("Long Maximum = " + maxLong);
+
+        System.out.println("Float Minimum = " + minFloat);
+        System.out.println("Float Maximum = " + maxFloat);
+
+        System.out.println("Double Minimum = " + minDouble);
+        System.out.println("Double Maximum = " + maxDouble);
+
+        System.out.println("Char Minimum = " + (int) minChar);
+        System.out.println("Char Maximum = " + (int) maxChar);
+
+        System.out.println("Boolean Value = " + value);
+    }
+}
