@@ -1,0 +1,30 @@
+
+public class DataTypeSize {
+
+    public static void main(String[] args) {
+
+        System.out.println("byte = " + Byte.SIZE + " bits, "
+                + (Byte.SIZE / 8) + " byte");
+
+        System.out.println("short = " + Short.SIZE + " bits, "
+                + (Short.SIZE / 8) + " bytes");
+
+        System.out.println("int = " + Integer.SIZE + " bits, "
+                + (Integer.SIZE / 8) + " bytes");
+
+        System.out.println("long = " + Long.SIZE + " bits, "
+                + (Long.SIZE / 8) + " bytes");
+
+        System.out.println("float = " + Float.SIZE + " bits, "
+                + (Float.SIZE / 8) + " bytes");
+
+        System.out.println("double = " + Double.SIZE + " bits, "
+                + (Double.SIZE / 8) + " bytes");
+
+        System.out.println("char = " + Character.SIZE + " bits, "
+                + (Character.SIZE / 8) + " bytes");
+
+        System.out.println("boolean = true or false; "
+                + "size is not specified by Java");
+    }
+}
